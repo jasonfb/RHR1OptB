@@ -3,9 +3,7 @@ import PropTypes from "prop-types"
 class HelloWorld extends React.Component {
   render () {
     return (
-      <React.Fragment>
-        Greeting: {this.props.greeting}
-      </React.Fragment>
+      <div>What is 5+2?</div>
     );
   }
 }
